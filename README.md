@@ -3,17 +3,37 @@
 A sample Flutter project to demonstrate testing.
 
 ## Getting Started
-- To run unit tests  
+
+### Installation
+
+- **To install app** 
 ```
-flutter test test/models/favorites_test.dart
+flutter run lib/main.dart
 ```
 
-- To run widget tests  
+### Testing
+
+- **To run all unit tests**  
 ```
-flutter run test/home_test.dart
+flutter test
 ```
 
-- To run integration tests  
+- **To run a selected unit test**  
+```
+flutter test test_file_directory/test_file_name.dart
+```
+
+- **To run widget test**  
+```
+flutter test test_file_directory/test_file_name.dart
+```
+
+- **To run widget test in device**  
+```
+flutter run test_file_directory/test_file_name.dart
+```
+
+- **To run integration tests**  
 ```
 flutter drive --driver integration_test/driver.dart --target integration_test/app_test.dart --profile
 ```
